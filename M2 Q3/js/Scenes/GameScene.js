@@ -80,7 +80,6 @@ class GameScene extends Phaser.Scene {
         // Player
         player = this.physics.add.sprite(60,250, 'player');
         player.setBounce(0);
-        //player.setCollideWorldBounds(true); 
         this.physics.add.collider(player,ground);
 
         // Player Interactibles
